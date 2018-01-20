@@ -455,3 +455,19 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.banner {
+  min-height: 200px;
+  background-color: #5E30D1;
+  background-image: url("img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media(min-width:768px) {
+  .banner {
+    min-height: 400px;
+    background-size: contain;
+  }
+}
