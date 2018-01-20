@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #5e30d1;
 }
 
 p {
@@ -456,18 +457,41 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+.navigation {
+  text-align: center;
+}
+
 .banner {
   min-height: 200px;
-  background-color: #5E30D1;
   background-image: url("img/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.join {
+  margin-bottom: 40px;
+  height: 0;
+}
+
+.join button {
+  position: relative;
+  left: 10%;
+  top: -40px;
+  width: 200px;
+  height: 75px;
+}
+
+.social {
+  margin: 0 auto;
+}
+
 @media(min-width:768px) {
   .banner {
     min-height: 400px;
     background-size: contain;
+  }
+  .join button {
+    width: 400px;
   }
 }
