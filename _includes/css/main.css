@@ -329,6 +329,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    margin-top: 50px;
 }
 
 footer h3 {
@@ -462,7 +463,7 @@ footer .footer-below {
 }
 
 .banner {
-  min-height: 200px;
+  min-height: 130px;
   background-image: url("img/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,15 +484,44 @@ footer .footer-below {
 }
 
 .social {
-  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.box {
+  height: 200px;
+  color: #fff;
+}
+
+.box h3 {
+  margin-bottom: 30px;
+}
+
+.twitch-embedded {
+  height: 100%;
 }
 
 @media(min-width:768px) {
   .banner {
     min-height: 400px;
-    background-size: contain;
   }
   .join button {
     width: 400px;
   }
+}
+
+.news ul {
+  padding: 0;
+}
+
+.news ul li {
+  list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #8ad7ff;
 }
