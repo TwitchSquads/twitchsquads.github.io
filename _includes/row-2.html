@@ -1,11 +1,55 @@
 <div class="row">
   <div class="col-sm-3">
+    <div class="box discord">
+      <h3>Discord</h3>
+
+      <div class="discord-box center">
+        <iframe src="https://discordapp.com/widget?id=289860096475922432&theme=dark" width="250" height="74" allowtransparency="true" frameborder="0"></iframe>
+      </div>
+
+      <div class="instagram-box center">
+        <iframe src="//lightwidget.com/widgets/1fbb05a621485409ae1cd941bf6cb1b6.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-6 box twitch">
-    {% include twitch.html id="99damage" %}
+  <div class="col-sm-6">
+    <div class="box twitch">
+      <h3>Stream</h3>
+      <div class="twitch-wrapper">
+        {% include twitch.html id="twitchsquads" %}
+      </div>
+    </div>
   </div>
-  <div class="col-sm-3 box shop">
-    Shop
-    </ul>
+  <div class="col-sm-3">
+    <div class="box shop">
+      <h3>Shop</h3>
+
+      <div id="shop-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#shop-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#shop-carousel" data-slide-to="1"></li>
+          <li data-target="#shop-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <a href="https://shop.spreadshirt.net/twitchsquads/"><img src="img/spreadshirt-1.jpg" alt="Hoodie"></a>
+          </div>
+          <div class="item">
+            <a href="https://shop.spreadshirt.net/twitchsquads/"><img src="img/spreadshirt-2.jpg" alt="Tank-Top"></a>
+          </div>
+          <div class="item">
+            <a href="https://shop.spreadshirt.net/twitchsquads/"><img src="img/spreadshirt-3.jpg" alt="Cap"></a>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#shop-carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#shop-carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
   </div>
 </div>

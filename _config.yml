@@ -25,10 +25,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 8ad7ff #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary-dark: 52573e #A2122F
 
 # Footer settings
 footer:
@@ -39,16 +39,16 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+    url: https://www.instagram.com/twitchsquads/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/TwitchSquads/
+  - title: twitch
+    url: https://www.twitch.tv/twitchsquads
+  - title: twitter
+    url: https://twitter.com/twitchsquads
+  - title: youtube
+    url: https://www.youtube.com/twitchsquads
 
 # Postal address (add as many lines as necessary)
 address:
