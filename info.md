@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Squad Information
+title: Info
 ---
 
 Hello, 
