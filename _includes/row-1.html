@@ -2,9 +2,11 @@
   <div class="col-sm-3">
     <div class="box info">
       <h3>Info</h3>
-      {% for page in site.pages %}
-      {% if page.title == 'Info' %}
-        {{ page.content }}
+      {% for post in site.posts %}
+      {% if post.title == 'Info' %}
+        {{ post.excerpt | markdownify }}
+
+        <a href="{{ post.url }}">Read more..</a>
       {% endif %}
       {% endfor %}
     </div>
@@ -12,9 +14,9 @@
   <div class="col-sm-6">
     <div class="box featured-streamer">
       <h3>Featured Streamer</h3>
-      {% for page in site.pages %}
-      {% if page.title == 'Featured Streamer' %}
-        {{ page.content }}
+      {% for post in site.posts %}
+      {% if post.title == 'Featured Streamer' %}
+        {{ post.excerpt | markdownify }}
       {% endif %}
       {% endfor %}
     </div>

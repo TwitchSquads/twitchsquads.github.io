@@ -464,6 +464,7 @@ footer .footer-below {
 .navigation {
   text-align: center;
   background-color: #52573e;
+  margin-bottom: 24px;
 }
 
 .banner {
@@ -564,7 +565,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #8ad7ff;
+    color: #ea4df4;
 }
 
 .content {
