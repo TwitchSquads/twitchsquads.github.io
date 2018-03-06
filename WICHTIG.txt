@@ -1,0 +1,31 @@
+ja das geht mit
+
+(im verzeichnis)
+git add .
+
+git commit -m "beschreibung der aenderung"
+
+git push
+
+mit
+git status kannst du dir vorher angucken, welche dateien du geändert hast
+
+vorher immer
+git pull --rebase
+um auf den neuesten stand zu kommen
+
+
+
+
+git config --global user.email "twitchsquads@gmail.com"
+git config --global user.name "TwitchSquads"
+
+
+
+LINKS:
+
+kannst auch auf github.com ändern... hier zB: https://github.com/TwitchSquads/twitchsquads.github.io/blob/master/featured-streamer.md und dann auf den bleistift klicken
+
+das musst du per hand machen, hier steht wie: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+http://jbt.github.io/markdown-editor/

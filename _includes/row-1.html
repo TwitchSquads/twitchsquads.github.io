@@ -13,9 +13,9 @@
   </div>
   <div class="col-sm-6">
     <div class="box featured-streamer">
-      <h3>Featured Streamer</h3>
+      <h3>Streamer Showcase</h3>
       {% for post in site.posts %}
-      {% if post.title == 'Featured Streamer' %}
+      {% if post.title == 'Streamer Showcase' %}
         {{ post.excerpt | markdownify }}
       {% endif %}
       {% endfor %}
