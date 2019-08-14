@@ -35,6 +35,13 @@ permalink: /team/
             text-align: center;
         }
 
+        .logo {
+            margin-left: auto;
+            margin-right: auto;
+            width: 128px;
+            height: 128px;
+        }
+
         .team-member {
             color: white;
             margin-bottom: 50px;
@@ -56,6 +63,13 @@ permalink: /team/
         .team-member .contact {
             font-weight: bold;
         }
+
+        @media screen and (min-width: 800px) {
+            .logo {
+                width: 256px;
+                height: 256px;
+            }
+        }
     </style>
 </head>
 
@@ -63,6 +77,9 @@ permalink: /team/
     <section class="hero">
         <div class="hero-body">
             <div class="container">
+                <figure class="image logo">
+                    <img src="../img/team/logo.png">
+                </figure>
                 <h1 class="title">
                     Team
                 </h1>
